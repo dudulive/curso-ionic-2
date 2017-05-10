@@ -4,9 +4,14 @@
   </ion-toolbar>
    <ion-content>
     <ion-list>
-       <button ion-item *ngFor="let p of pages" (click)="openPage(p)">
-             <ion-icon item-left [name]="p.icon"></ion-icon>           
-         {{p.title}}
+       <button ion-item (click)="openPage(home)" menuClose>
+        casa
+      </button>
+      <button ion-item (click)="openPage(home)" menuClose>
+        Home
+      </button>
+       <button ion-item (click)="openPage(test)" menuClose>
+        Menu Teste
       </button>
     </ion-list>
   </ion-content>
