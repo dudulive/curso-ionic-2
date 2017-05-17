@@ -1,4 +1,5 @@
 import { MenuTeste } from './../pages/menu-teste/menu-teste';
+import { GeneratedTeste } from './../pages/generated-teste/generated-teste';
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -12,7 +13,8 @@ import { HomePage } from '../pages/home/home';
   declarations: [
     MyApp,
     HomePage,
-    MenuTeste
+    MenuTeste,
+    GeneratedTeste
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { HomePage } from '../pages/home/home';
   entryComponents: [
     MyApp,
     HomePage,
-    MenuTeste
+    MenuTeste,
+    GeneratedTeste
   ],
   providers: [
     StatusBar,
