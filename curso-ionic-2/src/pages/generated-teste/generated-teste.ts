@@ -1,3 +1,4 @@
+import { ConnectionService } from './../../providers/connection-service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
@@ -11,14 +12,22 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 @Component({
   selector: 'page-generated-teste',
   templateUrl: 'generated-teste.html',
+  providers: [ConnectionService]
 })
 export class GeneratedTeste {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private connectionService : ConnectionService) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GeneratedTeste');
   }
 
+  buscarCep() : void{
+      this.connectionService.getCep('74476050').then((res) => {
+          console.log(res);
+      }).catch((err) => {
+           console.log(err);
+      });
+  }
 }
