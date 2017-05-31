@@ -1,3 +1,4 @@
+import { ButtonTest } from './../pages/button-test/button-test';
 import { Alerta } from './../pages/alerta/alerta';
 import { MenuTeste } from './../pages/menu-teste/menu-teste';
 import { GeneratedTeste } from './../pages/generated-teste/generated-teste';
@@ -17,7 +18,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenuTeste,
     GeneratedTeste,
-    Alerta
+    Alerta,
+    ButtonTest
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import { HomePage } from '../pages/home/home';
     HomePage,
     MenuTeste,
     GeneratedTeste,
-    Alerta
+    Alerta,
+    ButtonTest
   ],
   providers: [
     StatusBar,
