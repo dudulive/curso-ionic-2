@@ -1,3 +1,4 @@
+import { Alerta } from './../pages/alerta/alerta';
 import { GeneratedTeste } from './../pages/generated-teste/generated-teste';
 import { MenuTeste } from './../pages/menu-teste/menu-teste';
 import { HomePage } from './../pages/home/home';
@@ -14,6 +15,7 @@ export class MyApp {
   home: any = HomePage;
   test: any = MenuTeste;
   generated: any = GeneratedTeste;
+  alert: any = Alerta;
 
   rootPage: any = this.home;
 
