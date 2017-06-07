@@ -1,3 +1,4 @@
+import { IconTeste } from './../pages/icon-teste/icon-teste';
 import { CardTeste } from './../pages/card-teste/card-teste';
 import { ButtonTest } from './../pages/button-test/button-test';
 import { Alerta } from './../pages/alerta/alerta';
@@ -21,7 +22,8 @@ import { HomePage } from '../pages/home/home';
     GeneratedTeste,
     Alerta,
     ButtonTest,
-    CardTeste
+    CardTeste,
+    IconTeste
   ],
   imports: [
     BrowserModule,
@@ -36,7 +38,8 @@ import { HomePage } from '../pages/home/home';
     GeneratedTeste,
     Alerta,
     ButtonTest,
-    CardTeste
+    CardTeste,
+    IconTeste
   ],
   providers: [
     StatusBar,
