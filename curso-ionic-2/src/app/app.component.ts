@@ -1,3 +1,4 @@
+import { CardTeste } from './../pages/card-teste/card-teste';
 import { ButtonTest } from './../pages/button-test/button-test';
 import { Alerta } from './../pages/alerta/alerta';
 import { GeneratedTeste } from './../pages/generated-teste/generated-teste';
@@ -18,6 +19,7 @@ export class MyApp {
   generated: any = GeneratedTeste;
   alert: any = Alerta;
   button: any = ButtonTest;
+  card: any = CardTeste;
 
   rootPage: any = this.home;
 

@@ -1,3 +1,4 @@
+import { CardTeste } from './../pages/card-teste/card-teste';
 import { ButtonTest } from './../pages/button-test/button-test';
 import { Alerta } from './../pages/alerta/alerta';
 import { MenuTeste } from './../pages/menu-teste/menu-teste';
@@ -19,7 +20,8 @@ import { HomePage } from '../pages/home/home';
     MenuTeste,
     GeneratedTeste,
     Alerta,
-    ButtonTest
+    ButtonTest,
+    CardTeste
   ],
   imports: [
     BrowserModule,
@@ -33,7 +35,8 @@ import { HomePage } from '../pages/home/home';
     MenuTeste,
     GeneratedTeste,
     Alerta,
-    ButtonTest
+    ButtonTest,
+    CardTeste
   ],
   providers: [
     StatusBar,
