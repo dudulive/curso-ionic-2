@@ -1,3 +1,4 @@
+import { InputTeste } from './../pages/input-teste/input-teste';
 import { IconTeste } from './../pages/icon-teste/icon-teste';
 import { CardTeste } from './../pages/card-teste/card-teste';
 import { ButtonTest } from './../pages/button-test/button-test';
@@ -22,6 +23,7 @@ export class MyApp {
   button: any = ButtonTest;
   card: any = CardTeste;
   icon: any = IconTeste;
+  input: any = InputTeste;
 
   rootPage: any = this.home;
 
