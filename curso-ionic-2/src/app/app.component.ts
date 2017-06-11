@@ -1,3 +1,4 @@
+import { ListTest } from './../pages/list-test/list-test';
 import { InputTeste } from './../pages/input-teste/input-teste';
 import { IconTeste } from './../pages/icon-teste/icon-teste';
 import { CardTeste } from './../pages/card-teste/card-teste';
@@ -24,6 +25,7 @@ export class MyApp {
   card: any = CardTeste;
   icon: any = IconTeste;
   input: any = InputTeste;
+  list: any = ListTest;
 
   rootPage: any = this.home;
 
