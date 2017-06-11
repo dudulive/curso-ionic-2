@@ -1,3 +1,4 @@
+import { GridTeste } from './../pages/grid-teste/grid-teste';
 import { ListTest } from './../pages/list-test/list-test';
 import { InputTeste } from './../pages/input-teste/input-teste';
 import { IconTeste } from './../pages/icon-teste/icon-teste';
@@ -26,6 +27,7 @@ export class MyApp {
   icon: any = IconTeste;
   input: any = InputTeste;
   list: any = ListTest;
+  grid: any = GridTeste;
 
   rootPage: any = this.home;
 

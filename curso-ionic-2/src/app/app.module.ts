@@ -1,3 +1,4 @@
+import { GridTeste } from './../pages/grid-teste/grid-teste';
 import { ListTest } from './../pages/list-test/list-test';
 import { InputTeste } from './../pages/input-teste/input-teste';
 import { IconTeste } from './../pages/icon-teste/icon-teste';
@@ -27,7 +28,8 @@ import { HomePage } from '../pages/home/home';
     CardTeste,
     IconTeste,
     InputTeste,
-    ListTest
+    ListTest,
+    GridTeste
   ],
   imports: [
     BrowserModule,
@@ -45,7 +47,8 @@ import { HomePage } from '../pages/home/home';
     CardTeste,
     IconTeste,
     InputTeste,
-    ListTest
+    ListTest,
+    GridTeste
   ],
   providers: [
     StatusBar,
