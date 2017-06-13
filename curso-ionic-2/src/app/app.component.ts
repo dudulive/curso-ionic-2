@@ -1,3 +1,4 @@
+import { ModalTeste } from './../pages/modal-teste/modal-teste';
 import { GridTeste } from './../pages/grid-teste/grid-teste';
 import { ListTest } from './../pages/list-test/list-test';
 import { InputTeste } from './../pages/input-teste/input-teste';
@@ -28,6 +29,7 @@ export class MyApp {
   input: any = InputTeste;
   list: any = ListTest;
   grid: any = GridTeste;
+  modal:any = ModalTeste;
 
   rootPage: any = this.home;
 
