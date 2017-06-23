@@ -1,3 +1,5 @@
+import { TabTeste } from './../pages/tab-teste/tab-teste';
+import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
 import { ModalTeste } from './../pages/modal-teste/modal-teste';
 import { GridTeste } from './../pages/grid-teste/grid-teste';
 import { ListTest } from './../pages/list-test/list-test';
@@ -30,6 +32,8 @@ export class MyApp {
   list: any = ListTest;
   grid: any = GridTeste;
   modal:any = ModalTeste;
+  navigation:any = NavigationTeste;
+  tab:any = TabTeste;
 
   rootPage: any = this.home;
 

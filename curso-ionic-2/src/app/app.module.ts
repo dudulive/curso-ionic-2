@@ -1,3 +1,4 @@
+import { TabTeste } from './../pages/tab-teste/tab-teste';
 import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
 import { ModalTeste, ModalContentPage } from './../pages/modal-teste/modal-teste';
 import { GridTeste } from './../pages/grid-teste/grid-teste';
@@ -34,7 +35,8 @@ import { HomePage } from '../pages/home/home';
     GridTeste,
     ModalTeste,
     ModalContentPage,
-    NavigationTeste
+    NavigationTeste,
+    TabTeste
     
   ],
   imports: [
@@ -57,7 +59,8 @@ import { HomePage } from '../pages/home/home';
     GridTeste,
     ModalTeste,
     ModalContentPage,
-    NavigationTeste
+    NavigationTeste,
+    TabTeste
     
   ],
   providers: [
