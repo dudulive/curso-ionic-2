@@ -1,3 +1,4 @@
+import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
 import { ModalTeste, ModalContentPage } from './../pages/modal-teste/modal-teste';
 import { GridTeste } from './../pages/grid-teste/grid-teste';
 import { ListTest } from './../pages/list-test/list-test';
@@ -32,7 +33,9 @@ import { HomePage } from '../pages/home/home';
     ListTest,
     GridTeste,
     ModalTeste,
-    ModalContentPage
+    ModalContentPage,
+    NavigationTeste
+    
   ],
   imports: [
     BrowserModule,
@@ -53,7 +56,9 @@ import { HomePage } from '../pages/home/home';
     ListTest,
     GridTeste,
     ModalTeste,
-    ModalContentPage
+    ModalContentPage,
+    NavigationTeste
+    
   ],
   providers: [
     StatusBar,
