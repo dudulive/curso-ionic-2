@@ -1,3 +1,4 @@
+import { ToastTeste } from './../pages/toast-teste/toast-teste';
 import { TabTeste } from './../pages/tab-teste/tab-teste';
 import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
 import { ModalTeste, ModalContentPage } from './../pages/modal-teste/modal-teste';
@@ -36,7 +37,8 @@ import { HomePage } from '../pages/home/home';
     ModalTeste,
     ModalContentPage,
     NavigationTeste,
-    TabTeste
+    TabTeste,
+    ToastTeste
     
   ],
   imports: [
@@ -60,7 +62,8 @@ import { HomePage } from '../pages/home/home';
     ModalTeste,
     ModalContentPage,
     NavigationTeste,
-    TabTeste
+    TabTeste,
+    ToastTeste
     
   ],
   providers: [

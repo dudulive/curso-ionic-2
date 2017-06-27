@@ -1,3 +1,4 @@
+import { ToastTeste } from './../pages/toast-teste/toast-teste';
 import { TabTeste } from './../pages/tab-teste/tab-teste';
 import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
 import { ModalTeste } from './../pages/modal-teste/modal-teste';
@@ -34,6 +35,7 @@ export class MyApp {
   modal:any = ModalTeste;
   navigation:any = NavigationTeste;
   tab:any = TabTeste;
+  toast:any = ToastTeste;
 
   rootPage: any = this.home;
 
