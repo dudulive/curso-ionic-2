@@ -1,3 +1,4 @@
+import { ToolbarTeste } from './../pages/toolbar-teste/toolbar-teste';
 import { ToastTeste } from './../pages/toast-teste/toast-teste';
 import { TabTeste } from './../pages/tab-teste/tab-teste';
 import { NavigationTeste } from './../pages/navigation-teste/navigation-teste';
@@ -36,6 +37,7 @@ export class MyApp {
   navigation:any = NavigationTeste;
   tab:any = TabTeste;
   toast:any = ToastTeste;
+  toolbar:any = ToolbarTeste;
 
   rootPage: any = this.home;
 
